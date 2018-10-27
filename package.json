@@ -2,9 +2,10 @@
   "name": "authentication-service",
   "version": "1.0.0",
   "description": "Authentication Service API",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/allisonhamelin/AuthenticationService/issues"
   },
-  "homepage": "https://github.com/allisonhamelin/AuthenticationService#readme"
+  "homepage": "https://github.com/allisonhamelin/AuthenticationService#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
